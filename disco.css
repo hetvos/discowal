@@ -1,0 +1,38 @@
+.peopleColumn-1wMU14 {
+    background-color: var(--background-primary);
+}
+
+.theme-dark {
+    --background-secondary: linear-gradient(rgba(0, 0, 0, 0.14), rgba(0, 0, 0, 0.14)), var(--background) !important;
+    --background-secondary-alt: rgba(0, 0, 0, 0.086) !important;
+    --background-tertiary: rgba(0, 0, 0, 0.2) !important;
+    --background-primary: var(--background) !important;
+    --channeltextarea-background: rgba(255, 255, 255, 0.04) !important;
+    --scrollbar-thin-thumb: var(--color8) !important;
+    --scrollbar-auto-thumb: var(--color8) !important;
+    --scrollbar-auto-track: var(--background) !important;
+    --background-server-list: linear-gradient(rgba(0, 0, 0, 0.13), rgba(0, 0, 0, 0.13)), var(--background) !important;
+    --text-normal: var(--foreground) !important;
+}
+
+.theme-dark .guilds-2JjMmN {
+    background: var(--background-server-list) !important;
+}
+
+
+.theme-light {
+    --background-secondary: linear-gradient(rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), var(--background) !important;
+    --background-secondary-alt: rgba(0, 0, 0, 0.03) !important;
+    --background-tertiary: rgba(0, 0, 0, 0/*.2*/) !important;
+    --background-primary: var(--background) !important;
+    --channeltextarea-background: rgba(255, 255, 255, 0.04) !important;
+    --scrollbar-thin-thumb: var(--color8) !important;
+    --scrollbar-auto-thumb: var(--color8) !important;
+    --scrollbar-auto-track: var(--background) !important;
+    --background-server-list: linear-gradient(rgba(0, 0, 0, 0.12), rgba(0, 0, 0, 0.12)), var(--background) !important;
+    --text-normal: var(--foreground) !important;
+}
+
+.theme-light .guilds-2JjMmN ul {
+    background: var(--background-server-list)!important;
+}
